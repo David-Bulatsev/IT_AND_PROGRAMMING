@@ -17,7 +17,7 @@ public class Palindrome {
         for (int i = s.length(); --i >= 0;) {
             word.append(s.charAt(i));
         }
-
+        ;
         return word.toString();
     }
 
