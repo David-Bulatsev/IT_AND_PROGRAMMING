@@ -24,7 +24,7 @@ public class AudioBook extends Book {
 
     @Override
     public void getInfo() {
-        System.out.println("Аудиокнига " + super.name + "; Автор " + super.author + "; Жанр " + super.genre +
+        System.out.println("Аудиокнига " + super.getName() + "; Автор " + super.getAuthor() + "; Жанр " + super.getGenre() +
                 "; Длительность " + this.durationInMinutes + "; Цена " + this.priceInRoubles);
     }
 

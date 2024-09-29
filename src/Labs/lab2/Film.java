@@ -28,8 +28,9 @@ public class Film extends Book {
 
     @Override
     public void getInfo() {
-        System.out.println("Фильм " + super.name + "; Автор " + super.author + "; Жанр " + super.genre +
-                "; Количество частей " + this.numberOfParts + "; Основан на " + this.basedOn + "; Оценка на кинопоиске " + ratingOnKinopoisk);
+        System.out.println("Фильм " + super.getName() + "; Автор " + super.getAuthor() + "; Жанр " + super.getGenre() +
+                "; Количество частей " + this.numberOfParts + "; Основан на " + this.basedOn + "; Оценка на кинопоиске "
+                + this.ratingOnKinopoisk);
     }
 
 

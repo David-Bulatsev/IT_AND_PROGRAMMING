@@ -11,9 +11,6 @@ public class Musical extends Book {
         setAddress(address);
         setDurationInMinutes(duration);
         setTicketPrice(ticketPrice);
-        setAuthor(author);
-        setName(name);
-        setGenre(genre);
 
     }
 
@@ -30,10 +27,9 @@ public class Musical extends Book {
 
     @Override
     public void getInfo() {
-        System.out.println("Мюзикл " + super.name + "; Автор " + super.author + "; Жанр " + super.genre +
-                "; Продолжительность " + this.durationInHours + "; Адрес " + address + "; Цена " + this.ticketPrice);
+        System.out.println("Мюзикл " + super.getName() + "; Автор " + super.getAuthor() + "; Жанр " + super.getGenre() +
+                "; Продолжительность " + this.durationInHours + "; Адрес " + this.address + "; Цена " + this.ticketPrice);
     }
-
 
     private void setAddress(String address) {
         this.address = address;
