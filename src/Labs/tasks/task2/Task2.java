@@ -70,7 +70,7 @@ public class Task2 {
 
     //    5
     public static ArrayList<Integer> compressedNums(double[] numbers) {
-        ArrayList<Integer> result = new ArrayList<Integer>();
+        ArrayList<Integer> result = new ArrayList<>();
 
         for (double i : numbers) {
             if (i != 0) {
